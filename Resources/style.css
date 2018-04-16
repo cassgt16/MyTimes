@@ -1,0 +1,41 @@
+
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+}
+
+.header h3 {
+  color: MediumAquamarine
+}
+
+.header li {
+  display: inline-block;
+}
+
+.main-content {
+  display: flex;
+}
+
+div {
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+}
+
+.column{
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
